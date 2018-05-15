@@ -22,11 +22,11 @@ client.on('message', async message => {
                 "text": "DM me any suggestions, my bot is bad haha"
             },
             "image": {
-                "url": "https://cdn.discordapp.com/attachments/403662884363567134/445785399554605057/image.jpg"
+                "url": "https://st0p47.github.io/avnoor-scream-2.jpg"
             },
             "author": {
                 "name": "me lol",
-                "icon_url": "https://cdn.discordapp.com/attachments/398656495044001795/446043055468838923/just_a_bun.png"
+                "icon_url": "https://st0p47.github.io/just-a-bun.png"
             },
             "fields": [
                 {
@@ -77,9 +77,15 @@ client.on('message', async message => {
         })
     }
 
-    if (message.content.startsWith(prefix + "code")) {
-        message.channel.send('code', {
-            files: ["./bot.js"]
+    if (message.content.startsWith(prefix + "github")) {
+        message.channel.send({
+            embed: {
+                "title": "pls no",
+                "url": "https://github.com/st0p47/tungbot-v3",
+                "footer": {
+                    "text": "DM me any suggestions, my bot is bad haha"
+                }
+            }
         })
     }
 
@@ -89,9 +95,18 @@ client.on('message', async message => {
         if (x < 5 ) {
             message.channel.send(jakeMayMays[Math.floor(Math.random() * jakeMayMays.length)])
         } else {
-            message.channel.send("hmmm", {
-                files: ["./jakeOMEGALUL.png"]
-            })
+            message.channel.send({
+                embed: {
+                    "title": "jakeMayMays",
+                    "description": "thx boov",
+                    "color": 12774770,
+                    "footer": {
+                        "text": "DM me any suggestions, my bot is bad haha"
+                    },
+                    "image": {
+                        "url": "https://st0p47.github.io/jakeOMEGALUL.png"
+            
+                }}})
         }
 
     }
