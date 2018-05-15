@@ -13,8 +13,44 @@ client.on ("ready", () => {
 client.on('message', async message => {
 
     if (message.content.startsWith(prefix + "help")) {
-        message.channel.send(
-            "```\n Help: look at my bad bot lmao \n !screech: cure your erectile dysfunction (luqualizer screech in the voice channel of the sender) \n !source: download screech source file \n !code: get bot source code \n !stop: TungBot leaves the channel the sender is in \n !jake: jake LMAO (spam jake things) \n DM me any suggestions, enjoy! \n my bot is bad```"
+        message.channel.send({
+            embed: {
+            "title": "Help",
+            "description": "look at my shit bot lmao",
+            "color": 12774770,
+            "footer": {
+                "text": "DM me any suggestions, my bot is bad haha"
+            },
+            "image": {
+                "url": "https://cdn.discordapp.com/attachments/403662884363567134/445785399554605057/image.jpg"
+            },
+            "author": {
+                "name": "me lol",
+                "icon_url": "https://cdn.discordapp.com/attachments/398656495044001795/446043055468838923/just_a_bun.png"
+            },
+            "fields": [
+                {
+                "name": "!screech",
+                "value": "luqualizer screech in the voice channel of the sender"
+                },
+                {
+                "name": "!source",
+                "value": "download screech source file"
+                },
+                {
+                "name": "!github",
+                "value": "PLEASE PLEASE DON'T GO HERE THX IM BAD IK"
+                },
+                {
+                "name": "!stop",
+                "value": "TungBot leaves the channel the sender is in"
+                },
+                {
+                "name": "!jake",
+                "value": "spam jake memes by Ze'ev request"
+                }
+            ]}
+            }
         )
     }
 
