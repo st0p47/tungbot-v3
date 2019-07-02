@@ -19,7 +19,7 @@ client.on('message', async message => {
             "description": "look at my shit bot lmao",
             "color": 12774770,
             "footer": {
-                "text": "DM me any suggestions, my bot is bad haha"
+                "text": "DM me any suggestions, my bot is bad hahaha"
             },
             "image": {
                 "url": "https://st0p47.github.io/avnoor-scream-2.jpg"
@@ -70,7 +70,7 @@ client.on('message', async message => {
         var channel = message.member.voiceChannel;
         channel.leave();
     }
-        
+
     if (message.content.startsWith(prefix + "source")) {
         message.channel.send('source:', {
             files: ["./screech.mp3"]
@@ -105,7 +105,7 @@ client.on('message', async message => {
                     },
                     "image": {
                         "url": "https://st0p47.github.io/jakeOMEGALUL.png"
-            
+
                 }}})
         }
 
@@ -113,6 +113,6 @@ client.on('message', async message => {
 
     if (message.content === "oof" || message.content === "Oof" || message.content === "OOF" || message.content === "00f"){
         message.channel.send("*poof")
-        
+
     };
 });
