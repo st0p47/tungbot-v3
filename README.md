@@ -1,9 +1,9 @@
 # tungbot-v3
-my shit discord bot
+This is a basic discord bot I slapped together for fun.
 
-if ur here ur bad pls dont judge me
+It sends pictures and plays audio in a voice channel on command.
 
-um dont use this code please thank you
+Perhaps someone will learn something from this.
 
 david m u should be like me and put ur shit on github
 
